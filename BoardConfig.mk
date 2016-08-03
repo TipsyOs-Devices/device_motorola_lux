@@ -30,11 +30,11 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_lux
 TARGET_KERNEL_CONFIG := lux_defconfig
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
+TARGET_GCC_VERSION_EXP := 4.9-uber
 
 # Optimizations
 STRICT_ALIASING := false
